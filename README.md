@@ -14,7 +14,7 @@ This repository contains the implementation and analysis of:
 ---
 
 ## Repository Structure
-
+---
 ├── README.md # This file
 ├── Quickdraw_dcgan.ipynb # Notebook: DCGAN on smiley, sword, cat sketches
 ├── model_flowchart.png # Flowchart of the DCGAN architecture
@@ -28,7 +28,7 @@ This repository contains the implementation and analysis of:
 │ └── cat/
 └── report/ # (optional) markdown or PDF version of the write-up
 
-
+---
 ---
 
 ## Key Features
@@ -67,6 +67,7 @@ wget -O sword.npy "https://storage.googleapis.com/quickdraw_dataset/full/numpy_b
 wget -O cat.npy "https://storage.googleapis.com/quickdraw_dataset/full/numpy_bitmap/cat.npy"
 
 jupyter notebook part2_quickdraw_dcgan.ipynb
+---
 1. Loads and preprocesses QuickDraw data (padding, normalization).
 
 2. Defines DCGAN generator and discriminator.
@@ -76,3 +77,4 @@ jupyter notebook part2_quickdraw_dcgan.ipynb
 4. Visualizes training loss curves and real vs. generated sketches.
 
 5. Includes extension to compare classes and complexity.
+---
