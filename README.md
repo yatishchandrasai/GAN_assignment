@@ -55,7 +55,7 @@ Tested with Python 3.9+. Main dependencies:
 - medmnist (if revisiting medical option)  
 - jupyter (for notebooks)
 ---
-Install with:
+## Install with:
 
 ```bash
 pip install torch torchvision numpy matplotlib graphviz
@@ -68,6 +68,7 @@ wget -O sword.npy "https://storage.googleapis.com/quickdraw_dataset/full/numpy_b
 wget -O cat.npy "https://storage.googleapis.com/quickdraw_dataset/full/numpy_bitmap/cat.npy"
 ---
 ---
+''' bash
 jupyter notebook part2_quickdraw_dcgan.ipynb
 ---
 ---
