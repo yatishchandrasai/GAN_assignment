@@ -60,4 +60,19 @@ Install with:
 ```bash
 pip install torch torchvision numpy matplotlib graphviz
 
+## Data Download
 
+wget -O smiley.npy "https://storage.googleapis.com/quickdraw_dataset/full/numpy_bitmap/smiley%20face.npy"
+wget -O sword.npy "https://storage.googleapis.com/quickdraw_dataset/full/numpy_bitmap/sword.npy"
+wget -O cat.npy "https://storage.googleapis.com/quickdraw_dataset/full/numpy_bitmap/cat.npy"
+
+jupyter notebook part2_quickdraw_dcgan.ipynb
+1. Loads and preprocesses QuickDraw data (padding, normalization).
+
+2. Defines DCGAN generator and discriminator.
+
+3. Trains GANs on smiley, sword, and cat categories with learning-rate tuning.
+
+4. Visualizes training loss curves and real vs. generated sketches.
+
+5. Includes extension to compare classes and complexity.
