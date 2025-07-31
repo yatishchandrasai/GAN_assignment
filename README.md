@@ -54,19 +54,22 @@ Tested with Python 3.9+. Main dependencies:
 - graphviz  
 - medmnist (if revisiting medical option)  
 - jupyter (for notebooks)
-
+---
 Install with:
 
 ```bash
 pip install torch torchvision numpy matplotlib graphviz
-
+---
+---
 ## Data Download
 
 wget -O smiley.npy "https://storage.googleapis.com/quickdraw_dataset/full/numpy_bitmap/smiley%20face.npy"
 wget -O sword.npy "https://storage.googleapis.com/quickdraw_dataset/full/numpy_bitmap/sword.npy"
 wget -O cat.npy "https://storage.googleapis.com/quickdraw_dataset/full/numpy_bitmap/cat.npy"
-
+---
+---
 jupyter notebook part2_quickdraw_dcgan.ipynb
+---
 ---
 1. Loads and preprocesses QuickDraw data (padding, normalization).
 
