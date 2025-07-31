@@ -29,3 +29,35 @@ This repository contains the implementation and analysis of:
 └── report/ # (optional) markdown or PDF version of the write-up
 
 
+---
+
+## Key Features
+
+- Implementation of basic GAN and deep variants for synthetic data (sine wave, noisy parametric curve).  
+- DCGAN implementation in PyTorch for image sketch generation.  
+- Training on three QuickDraw categories: smiley faces (low complexity), swords (moderate), cats (high).  
+- Learning-rate balancing to stabilize adversarial training.  
+- Visual comparison of real vs. generated sketches.  
+- Flowcharts for methodology and model architecture.  
+- Analytical write-up on performance vs. sketch complexity, observations, and recommendations.
+
+---
+
+## Dependencies
+
+Tested with Python 3.9+. Main dependencies:
+
+- torch  
+- torchvision  
+- numpy  
+- matplotlib  
+- graphviz  
+- medmnist (if revisiting medical option)  
+- jupyter (for notebooks)
+
+Install with:
+
+```bash
+pip install torch torchvision numpy matplotlib graphviz
+
+
