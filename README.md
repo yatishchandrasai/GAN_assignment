@@ -13,22 +13,6 @@ This repository contains the implementation and analysis of:
 
 ---
 
-## Repository Structure
----
-├── README.md # This file
-├── Quickdraw_dcgan.ipynb # Notebook: DCGAN on smiley, sword, cat sketches
-├── model_flowchart.png # Flowchart of the DCGAN architecture
-├── gan_pipeline_flowchart.png # Pipeline flowchart (data → model → analysis)
-├── smiley.npy # QuickDraw smiley face data (downloaded)
-├── sword.npy # QuickDraw sword data (downloaded)
-├── cat.npy # QuickDraw cat data (downloaded)
-├── outputs/ # Generated samples, loss plots, etc.
-│ ├── smiley/
-│ ├── sword/
-│ └── cat/
-└── report/ # (optional) markdown or PDF version of the write-up
-
----
 ---
 
 ## Key Features
@@ -68,5 +52,4 @@ wget -O sword.npy "https://storage.googleapis.com/quickdraw_dataset/full/numpy_b
 wget -O cat.npy "https://storage.googleapis.com/quickdraw_dataset/full/numpy_bitmap/cat.npy"
 ---
 
-jupyter notebook part2_quickdraw_dcgan.ipynb
 ---
